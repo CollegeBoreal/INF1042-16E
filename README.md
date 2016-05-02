@@ -6,3 +6,8 @@
 * Intellij Idea : https://www.jetbrains.com/idea/download/download-thanks.html
 * gihub CLI
 * Clé Personelle de github.com
+
+
+## Documentation
+
+http://docs.scala-lang.org/fr/cheatsheets/
