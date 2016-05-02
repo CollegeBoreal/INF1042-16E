@@ -32,4 +32,8 @@ y = 2.8
 y = "yves"
 
 
+def f(x: Int) = { x*x }
 
+f(5)
+
+f(10)
