@@ -1,5 +1,10 @@
 # Scala
 
+## Documentation
+
+http://docs.scala-lang.org/fr/cheatsheets/
+
+
 ## Créateur 
 Martin Odersky EPFL
 
