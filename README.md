@@ -7,7 +7,3 @@
 * gihub CLI
 * Clé Personelle de github.com
 
-
-## Documentation
-
-http://docs.scala-lang.org/fr/cheatsheets/
