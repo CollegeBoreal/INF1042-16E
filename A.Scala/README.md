@@ -11,4 +11,4 @@ Programmation Fonctionnelle (Hybride)
 
 Extrait de Dr. John Hunt, Google Books 
 
-![alt tag](https://github.com/CollegeBoreal/INF1042-16E/blob/master/Scala/ScalaGenealogy.png)
+![alt tag](https://github.com/CollegeBoreal/INF1042-16E/blob/master/A.Scala/ScalaGenealogy.png)
