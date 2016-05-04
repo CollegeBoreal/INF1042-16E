@@ -7,4 +7,4 @@ Martin Odersky EPFL
 
 Extrait de Dr. John Hunt, Google Books 
 
-![alt tag](https://github.com/CollegeBoreal/INF1042-16E/Scala/blob/master/ScalaGenealogy.png)
+![alt tag](https://github.com/CollegeBoreal/INF1042-16E/blob/master/Scala/ScalaGenealogy.png)
