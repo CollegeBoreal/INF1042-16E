@@ -3,6 +3,10 @@
 ## Créateur 
 Martin Odersky EPFL
 
+## Type de programmation
+
+Programmation Fonctionnelle (Hybride)
+
 ## Généalogie
 
 Extrait de Dr. John Hunt, Google Books 
