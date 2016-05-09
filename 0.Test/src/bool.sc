@@ -31,6 +31,14 @@ y = 2.8
 
 y = "yves"
 
+// Affectation et egaliteß
+
+val a = 0
+
+println(a == 0)
+
+
+// Fonctions
 
 def f(x: Int) = { x*x }
 
@@ -58,3 +66,4 @@ def f1(x: => R)
 (f:R) => x*x
 
 (1 to 5).map(_*2)
+

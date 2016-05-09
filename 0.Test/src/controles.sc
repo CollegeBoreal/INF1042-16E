@@ -12,27 +12,3 @@
 
    if (check) happy else ()
 
-   // ----- Boucles
-   // Variable
-
-   var x = 0
-
-   while (x < 5) { println(x); x += 1}
-
-   // imprimer x
-   x
-
-   x = 0
-
-   do { println(x); x += 1} while (x < 5)
-
-   // imprimer x
-   x
-
-   for (i <- 1 to 5) {
-      println(i)
-   }
-
-   for (i <- 1 until 5) {
-      println(i)
-   }
