@@ -27,6 +27,9 @@ for (i <- 1 until 5) {
 
 val xs = List(3,4,7,6,1,12)
 
+for (x <- xs if x%2 == 0) yield x
+
+
 for (x <- xs if x%2 == 0) yield x*10
 
 xs.filter(x => x%2 == 0).map(x => x*10)

@@ -9,20 +9,34 @@ a + 1
 
 // soustraction
 
+a-8
+
 
 
 // multiplication
 
+a*5
+
 
 
 // division
+a
 
+a/2
 
 
 // modulo
 
 
 
-// Carre
+
+a% 4
+
+a%3
+
+a%5
+
+
+
 
 
