@@ -25,7 +25,7 @@ for (i <- 1 until 5) {
 
 // Map Reduce
 
-val xs = List(3,4,7,6,1,12)
+val xs = scala.List(3,4,7,6,1,12)
 
 for (x <- xs if x%2 == 0) yield x
 
@@ -38,4 +38,13 @@ xs.filter(x => x%2 == 0).map(x => x*10)
 xs.filter(_%2 == 0).map(_*10)
 
 xs.filterNot(x =>  x%2==0).map(x=>x*10)
+
+
+val ys:List[Int] = List()
+
+ys :: 2 :: Nil
+
+
+
+
 

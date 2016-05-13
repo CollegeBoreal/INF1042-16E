@@ -20,3 +20,11 @@ g (s ,3)
 def  n (m : R => R)(x : R) :R = m(x) - 3
 
 n(f)(3)
+
+f(0 )
+
+f(-5)
+
+for ( x <-  -2  to 2)  yield s(x)
+
+
