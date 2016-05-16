@@ -27,4 +27,27 @@ f(-5)
 
 for ( x <-  -2  to 2)  yield s(x)
 
+// Map Reduce
+
+val xs = scala.List(3,4,7,6,1,12)
+
+for (x <- xs if x%2 == 0) yield x
+
+
+for (x <- xs if x%2 == 0) yield x*10
+
+xs.filter(x => x%2 == 0).map(x => x*10)
+
+// Syntactic Sugar
+xs.filter(_%2 == 0).map(_*10)
+
+xs.filterNot(x =>  x%2==0).map(x=>x*10)
+
+
+val ys:List[Int] = List()
+
+ys :: 2 :: Nil
+
+
+
 

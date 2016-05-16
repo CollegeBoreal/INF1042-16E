@@ -15,36 +15,31 @@ do { println(x); x += 1} while (x < 5)
 // imprimer x
 x
 
-for (i <- 1 to 5) {
+// Passage de 'mutable' a 'immutable'
+
+// Boucle avec variable indicee
+var i = -1
+while( i  <= 1)  {
+  println(i)
+  i+=1
+}
+
+// Boucle avec generateur de format liste
+val is = List( -1, 0,1)
+for ( i <- is) {
   println(i)
 }
 
-for (i <- 1 until 5) {
+// Boucle avec generateur de format plage (range)
+for ( i  <-  -1 to 1) {
   println(i)
 }
 
-// Map Reduce
 
-val xs = scala.List(3,4,7,6,1,12)
+// Utilisation de l'expression for
 
-for (x <- xs if x%2 == 0) yield x
-
-
-for (x <- xs if x%2 == 0) yield x*10
-
-xs.filter(x => x%2 == 0).map(x => x*10)
-
-// Syntactic Sugar
-xs.filter(_%2 == 0).map(_*10)
-
-xs.filterNot(x =>  x%2==0).map(x=>x*10)
-
-
-val ys:List[Int] = List()
-
-ys :: 2 :: Nil
-
-
-
+for (i <- -1 until 2) {
+  println(i)
+}
 
 
