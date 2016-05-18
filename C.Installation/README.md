@@ -1,6 +1,6 @@
 # INF1042-16E
 
-[!alt](https://github.com/CollegeBoreal/INF1042-16E/blob/master/C.Installation/HelloWorld.png)
+![alt tag](https://github.com/CollegeBoreal/INF1042-16E/blob/master/C.Installation/HelloWorld.png)
 
 ## Installation de la machine virtuelle java
 
