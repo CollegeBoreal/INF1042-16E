@@ -21,5 +21,12 @@ object Hi {
 
     val carreBX = new Carre(b.x)
     println(s"aire bx: ${carreBX.aire()}")
-  }
+
+
+    val  rectangle = new geometrie.Rectangle(10,5)
+    println(s"Rectangle : ${rectangle.aire()}" )
+
 }
+}
+
+

@@ -20,5 +20,10 @@ class Point(var x:Int , var y :Int ) {
  }
 
 class Carre (cote :Int) extends {
-  def aire () :Int = cote*cote
+  def aire(): Int = cote * cote
+
+}
+class Rectangle(long:Int,largeur :Int) extends {
+  def aire(): Int = long * largeur
+
 }
