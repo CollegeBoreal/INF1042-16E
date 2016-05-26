@@ -26,7 +26,10 @@ object Hi {
     val  rectangle = new geometrie.Rectangle(10,5)
     println(s"Rectangle : ${rectangle.aire()}" )
 
-}
-}
+    val cercle = new geometrie.Cercle(20)
+    println(s"Cercle : ${cercle.aire()}")
 
+
+}
+}
 

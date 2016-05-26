@@ -27,3 +27,9 @@ class Rectangle(long:Int,largeur :Int) extends {
   def aire(): Int = long * largeur
 
 }
+
+ class Cercle (rayon:Int) extends {
+  def aire () :Int  = math.Pi.toInt*rayon*rayon
+
+
+}
