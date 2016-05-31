@@ -31,3 +31,17 @@ def multiply (x : N ,y :N) :N = {
 }
 multiply(2,2)
 multiply(2,3)
+
+def divide (x : N,y : N) : N = {
+  if (x == 0) 0
+  else {
+    val z = divide(x / 2, y)
+    if (x % 2 == 0) (0,0)  else
+
+  }
+}
+divide (8,4)
+divide (20,3)
+
+
+

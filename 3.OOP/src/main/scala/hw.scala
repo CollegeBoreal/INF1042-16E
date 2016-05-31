@@ -1,4 +1,4 @@
-import geometrie.{Carre, Point}
+import geometrie.{Carre, Figure, Point}
 
 object Hi {
   def main(args: Array[String]) = {
@@ -29,7 +29,7 @@ object Hi {
     val cercle = new geometrie.Cercle(20)
     println(s"Cercle : ${cercle.aire()}")
 
-
+    val cote = Figure.ligne (a,b)
 }
 }
 

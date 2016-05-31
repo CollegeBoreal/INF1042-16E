@@ -13,6 +13,12 @@ class Point(var x:Int , var y :Int ) {
  override def toString():String = s"($x,$y)"
 }
 
+// Singleton
+object Figure {
+  def ligne (a : Point, b: Point):( Point,Point )= (a,b)
+
+}
+
  abstract class Figure {
 
   def aire ( ):Int
