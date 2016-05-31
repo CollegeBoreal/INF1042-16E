@@ -18,8 +18,7 @@ http://dev.mysql.com/doc/index-other.html
 Télécharger le fichier world.sql dans le répertoire racine du projet.
 
 ```
-$ docker exec -it INF1042-mysql \
- mysql -u root -p -e "create database world;"
+$ docker exec -it INF1042-mysql mysql -u root -p -e "create database world;"
 ```
 
 ```
