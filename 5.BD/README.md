@@ -19,7 +19,7 @@ Télécharger le fichier world.sql dans le répertoire racine du projet.
 
 ```
 $ docker exec -it INF1042-mysql \
- mysql -u root -p -e "create world;"
+ mysql -u root -p -e "create database world;"
 ```
 
 ```
