@@ -19,6 +19,11 @@ Télécharger le fichier world.sql dans le répertoire racine du projet.
 
 ```
 $ docker exec -it INF1042-mysql \
+ mysql -u root -p -e "create world;"
+```
+
+```
+$ docker exec -it INF1042-mysql \
  mysql -u root -p -e "GRANT ALL PRIVILEGES on *.* TO 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1' WITH GRANT OPTION;"
 ```
 
