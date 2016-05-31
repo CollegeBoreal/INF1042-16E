@@ -28,7 +28,7 @@ $ docker exec -it INF1042-mysql \
 
 ### Charger les données dans Docker 
 
-- remplacer le ```<PWD>```
+- remplacer le ```<PWD>``` par le mot de passe 
 ```
 $ docker exec  -i INF1042-mysql  mysql -u etudiants -p<MDP> world < ~/world.sql
 ```
