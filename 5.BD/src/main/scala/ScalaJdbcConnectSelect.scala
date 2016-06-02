@@ -14,11 +14,11 @@ object ScalaJdbcConnectSelect extends App {
     Class.forName(driver)
     connection = DriverManager.getConnection(url, username, password)
     val statement = connection.createStatement
-    val rs = statement.executeQuery("SELECT Code, Name FROM Country")
+    val rs = statement.executeQuery("SELECT Code, Name, Population FROM Country Where Code = 'HTI'")
     while (rs.next) {
       val code = rs.getString("Code")
       val name = rs.getString("Name")
-      println("Code = %s, Name = %s".format(code,name))
+      println("Code = %s, Nom = %s, Population = ".format(code,name))
     }
   } catch {
     case e: Exception => e.printStackTrace
