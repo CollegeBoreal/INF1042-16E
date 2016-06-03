@@ -8,3 +8,4 @@ Initiation à la programmation à Scala
 
 * Suivre l'installation C.Installation
 
+
