@@ -9,7 +9,7 @@ Définition:
 - Objet
 ```
 
-[alt!](https://github.com/CollegeBoreal/INF1042-16E/blob/master/3.OOP/images/oop.png)
+![alt tag](https://github.com/CollegeBoreal/INF1042-16E/blob/master/3.OOP/images/oop.png)
 
 ```
 - Héritage
