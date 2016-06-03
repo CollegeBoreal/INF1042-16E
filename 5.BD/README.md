@@ -2,12 +2,18 @@
 
 ## Design Patterns
 
+```
 - Singleton
 - Façade
 - Factory
+```
 
+![alt tag] (https://github.com/CollegeBoreal/INF1042-16E/blob/master/5.BD/images/dp_sngleton.png)
+
+```
 - DI (Dependency Injection)
 - DAO (Data Access Object)
+```
 
 ## Manipulation de données
 
