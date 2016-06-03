@@ -8,12 +8,13 @@ Définition:
 - Instantiation
 - Objet
 ```
+![alt tag](https://github.com/CollegeBoreal/INF1042-16E/blob/master/3.OOP/images/object.png)
 
-![alt tag](https://github.com/CollegeBoreal/INF1042-16E/blob/master/3.OOP/images/oop.png)
 
 ```
 - Héritage
 - Redéfinition (Override)
 - Polymorphisme
 ```
+![alt tag](https://github.com/CollegeBoreal/INF1042-16E/blob/master/3.OOP/images/oop.png)
 
