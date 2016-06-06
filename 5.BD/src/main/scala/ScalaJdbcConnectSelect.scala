@@ -10,7 +10,7 @@ object ScalaJdbcConnectSelect extends App {
   val username = "etudiants"
   val password = "etudiants_1"
   var connection:Connection = _
-  try
+  try {
     Class.forName(driver)
     connection = DriverManager.getConnection(url, username, password)
     val statement = connection.createStatement
@@ -18,13 +18,11 @@ object ScalaJdbcConnectSelect extends App {
     while (rs.next) {
       val code = rs.getString("Code")
       val name = rs.getString("Name")
-      println("Code = %s, Nom = %s, Population = ".format(code, name))
-      println("code = %s,Nom = %s,Population From Contry where code = 'HTI",.format(code, name))
+      val population = rs.getInt("Population")
+      println("Code = %s, Nom = %s, Population = %d".format(code, name, population))
     }
-
-
-
-  case e: Exception => e.printStackTrace
+  } catch {
+    case e: Exception => e.printStackTrace
   }
   connection.close
 

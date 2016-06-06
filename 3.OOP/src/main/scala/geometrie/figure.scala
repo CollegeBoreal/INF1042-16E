@@ -25,16 +25,16 @@ object Figure {
 
  }
 
-class Carre (cote :Int) extends {
+class Carre (cote :Int) extends Figure {
   def aire(): Int = cote * cote
 
 }
-class Rectangle(long:Int,largeur :Int) extends {
+class Rectangle(long:Int,largeur :Int) extends Figure {
   def aire(): Int = long * largeur
 
 }
 
- class Cercle (rayon:Int) extends {
+ class Cercle (rayon:Int) extends Figure {
   def aire () :Int  = math.Pi.toInt*rayon*rayon
 
 

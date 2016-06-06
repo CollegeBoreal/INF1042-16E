@@ -30,7 +30,15 @@ object Hi {
     println(s"Cercle : ${cercle.aire()}")
 
     val cote = Figure.ligne (a,b)
-}
+
+    val fs = List[Figure](rectangle,cercle,carre)
+
+    println("Aire Totale: %s", (for (f <- fs) yield f.aire()).reduceLeft(_+_))
+
+    // Syntactic Sugar (Sucre Syntaxique)
+    println("Aire Totale: %s", fs.map(_.aire()).sum )
+
+  }
 }
 
 
