@@ -48,7 +48,7 @@ object hw {
     println(s"Aire Totale: $aire2")
 
   }
-  
+
 }
 
 
