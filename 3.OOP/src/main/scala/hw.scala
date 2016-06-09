@@ -1,6 +1,7 @@
 import geometrie.{Carre, Figure, Point}
 
-object Hi {
+object hw {
+
   def main(args: Array[String]) = {
     val a = new Point(0,1)
     println(s"a: $a")
@@ -33,12 +34,21 @@ object Hi {
 
     val fs = List[Figure](rectangle,cercle,carre)
 
-    println("Aire Totale: %s", (for (f <- fs) yield f.aire()).reduceLeft(_+_))
+    // Example de Polymorphisme
+    val aire = (for (f <- fs) yield f.aire()).reduceLeft(_+_)
+    println(s"Aire Totale: $aire")
+
+    // mapReduce
+    val aire1 = fs.map(_.aire()).reduce(_+_)
+    println(s"Aire Totale: $aire1")
 
     // Syntactic Sugar (Sucre Syntaxique)
-    println("Aire Totale: %s", fs.map(_.aire()).sum )
+    val aire2 = fs.map(_.aire()).sum
+
+    println(s"Aire Totale: $aire2")
 
   }
+
 }
 
 
