@@ -22,7 +22,7 @@ object TroisD {
     println(s"Sphere Rayon: ${sphere.rayon}")
 
     // access prive erreur
-      println(s"Sphere complex: ${sphere.complex}")
+    //  println(s"Sphere complex: ${sphere.complex}")
 
   }
 }
