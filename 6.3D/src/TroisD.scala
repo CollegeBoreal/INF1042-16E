@@ -7,12 +7,22 @@ object TroisD {
 
 
 
-      val  Cube = new geometrie.Cube (9)
+      val  cube = new geometrie.Cube (9)
 
-      println(s"volume: ${Cube.volume()}")
+      println(s"Cube Volume: ${cube.volume()}")
 
+      cube.translation(0,5)
 
+    // Appel Constructeur
+    val  sphere = new geometrie.Sphere (9, -1)
 
+    println(s"Sphere Volume: ${sphere.volume()}")
+
+    // access avec Accesseur
+    println(s"Sphere Rayon: ${sphere.rayon}")
+
+    // access prive erreur
+      println(s"Sphere complex: ${sphere.complex}")
 
   }
 }
