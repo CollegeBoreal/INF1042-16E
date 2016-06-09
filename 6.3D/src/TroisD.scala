@@ -4,5 +4,15 @@
 object TroisD {
   def main(args: Array[String]) {
     println("3D")
+
+
+
+      val  Cube = new geometrie.Cube (9)
+
+      println(s"volume: ${Cube.volume()}")
+
+
+
+
   }
 }
